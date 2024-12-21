@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth</title>
+    <!-- Importa a fonte do símbolo -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap">
+    <!-- Importa uma fonte personalizada -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap">
+    <style>
+        /* Centralizar o conteúdo na página */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #121212; /* Fundo escuro */
+            font-family: 'Roboto', sans-serif; /* Fonte personalizada */
+        }
+
+        /* Quadrado arredondado */
+        .symbol-message-container {
+            width: 290px;
+            height: 160px;
+            background-color: #242729; /* Cor de fundo do quadrado */
+            display: flex;
+            flex-direction: column; /* Colocar símbolo e mensagem em coluna */
+            justify-content: center;
+            align-items: center;
+            border-radius: 12px; /* Bordas arredondadas */
+            text-align: center; /* Centraliza o texto */
+            color: white; /* Cor do texto e símbolo */
+            padding: 10px;
+        }
+
+        /* Símbolo */
+        .material-symbols-outlined {
+            font-size: 48px; /* Tamanho do símbolo */
+            margin-bottom: 5px; /* Espaço entre símbolo e mensagem */
+        }
+
+        /* Mensagem */
+        .message {
+            font-size: 16px; /* Tamanho do texto */
+            font-weight: 500; /* Espessura do texto */
+        }
+    </style>
+</head>
+<body>
+    <!-- Quadrado com o símbolo e a mensagem -->
+    <div class="symbol-message-container">
+        <span class="material-symbols-outlined">check</span>
+        <p class="message">Autenticado com sucesso!</p>
+        <p>(você já pode fechar esta guia)</p>
+    </div>
+</body>
+</html>
